@@ -1,2 +1,2 @@
 # C++ exercises
-### Based on "C++ Primer" Lippman, Lajoie, Moo (5th edition)
+_Based on __"C++ Primer" Lippman, Lajoie, Moo__ (5th edition)_
