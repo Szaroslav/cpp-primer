@@ -39,6 +39,28 @@ int main() {
 
 > We wrote the output in one large statement. Rewrite the program to use a separate statement to print each operand.
 
+`main.cpp`
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Enter two numbers:" << std::endl;
+    int a = 0, b = 0;
+    std::cin >> a >> b;
+
+    // Rewrited `main.cpp` from exercise1.4 to use single std::cout on every literal
+    std::cout << "The multiplication of ";
+    std::cout << a;
+    std::cout << " and ";
+    std::cout << b;
+    std::cout << " is ";
+    std::cout << a * b;
+    std::cout << std::endl;
+    
+    return 0;
+}
+```
+
 ## Exercise 1.6
 
 > Explain whether the following program fragment is legal.
@@ -48,3 +70,5 @@ int main() {
 >           << " is " << v1 + v2 << std::endl;
 > ```
 > If the program is legal, what does it do? If the program is not legal, why not? How would you fix it?
+
+Above fragment of code it's not legal, the program won't compile. This behaviour is caused by 2 last statements, which don't have `std::cout` as the left operand. In this directory is `main.cpp`, which can be open in IDE or text editor, or be compiled to see errors.
