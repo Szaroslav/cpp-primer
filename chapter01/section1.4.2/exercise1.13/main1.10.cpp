@@ -3,11 +3,10 @@
 int main() {
     std::cout << "Sum of numbers from 10 to 0 is ";
 
-    int sum = 0, i = 10;
-    while (i >= 0) {
+    int sum = 0;
+    // Single statement block, curly brackets are not necessary
+    for (int i = 10; i >= 0; i--)
         sum += i;
-        i--;
-    }
 
     std::cout << sum << "." << std::endl;
 
