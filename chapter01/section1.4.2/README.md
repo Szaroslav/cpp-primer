@@ -16,7 +16,7 @@ Above the `for` loop sums numbers from -100 to 100, the final value of sum is 0.
 
 > Rewrite the first two exercises from $\S$ 1.4.1 (p. 13) using `for` loops.
 
-`main1.9.cpp` ([exercise1.9](../../section1.4.1/exercise1.9/))
+`main1.9.cpp` ([exercise1.9](../section1.4.1/exercise1.9/))
 ```cpp
 #include <iostream>
 
@@ -34,7 +34,7 @@ int main() {
 }
 ```
 
-`main1.10.cpp` ([exercise1.10](../../section1.4.1/exercise1.10/))
+`main1.10.cpp` ([exercise1.10](../section1.4.1/exercise1.10/))
 ```cpp
 #include <iostream>
 
