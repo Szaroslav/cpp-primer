@@ -25,7 +25,7 @@ int main()
 
 ## Exercise 1.21
 
-> [http://www.informit.com/title/0321714113](http://www.informit.com/title/0321714113) _(__Downloads__ tab)_ contains a copy of `Sales_item.h` in the Chapter 1 code directory. Copy that file to your working directory. Use it to write a program that reads a set of book sales transactions, writing each transaction to the standard output.
+> Write a program that reads two `Sales_item` objects that have the same `ISBN` and produces their sum.
 
 `main.cpp`
 ```cpp
@@ -52,7 +52,7 @@ int main()
 
 ## Exercise 1.22
 
-> [http://www.informit.com/title/0321714113](http://www.informit.com/title/0321714113) _(__Downloads__ tab)_ contains a copy of `Sales_item.h` in the Chapter 1 code directory. Copy that file to your working directory. Use it to write a program that reads a set of book sales transactions, writing each transaction to the standard output.
+> Write a program that reads several transactions for the same `ISBN`. Write the sum of all the transactions that were read.
 
 `main.cpp`
 ```cpp
