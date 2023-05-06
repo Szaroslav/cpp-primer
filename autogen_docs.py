@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import json
 from typing import Any, Iterator
@@ -6,7 +7,7 @@ from typing import Any, Iterator
 #
 # Script constants
 #
-DOCS_PATH: str                  = "test/autogen_docs/docs_test/"
+DOCS_PATH: str                  = "."
 DOCS_PATTERN: str               = DOCS_PATH.replace('/', r"\/")
 DOCS_REGEXP: re.Pattern         = re.compile(DOCS_PATTERN)
 DOC_FN: str                     ="README.md"
@@ -99,14 +100,25 @@ def generate_chapter(path: str, data: list[tuple[str, str]]) -> None:
         generate_section_table(file, sections)
 
         file.write(2 * os.linesep)
-        for section in data["sections"]:
+        for i, section in enumerate(data["sections"]):
             file.write(f"## {section['title']}{os.linesep}")
             for exercise in section["exercises"]:
                 file.write(f"- [{exercise['title']}]({exercise['relative_link']}){os.linesep}")
-            file.write(os.linesep)
+
+            # Write new line between sections
+            if i < len(data["sections"]) - 1:
+                file.write(os.linesep)
 
 
 def main():
+    root_path = DOCS_PATH
+    if len(sys.argv) > 1:
+        root_path = sys.argv[1]
+        try:
+            os.listdir(root_path)
+        except FileNotFoundError:
+            print(f"[Error] Directory '{root_path}' doesn't exist")
+
     title: str | None = None
     chapter_data: dict[str, Any] = {
         "title": None,
@@ -124,12 +136,18 @@ def main():
             else:
                 data[key] = None
 
-    def only_dirs(path: str) -> Iterator[tuple[str, str]]:
-        dirs = list(filter(lambda x: os.path.isdir(os.path.join(path, x)), os.listdir(path)))
+    def only_dirs(path: str, name_regexp: re.Pattern | None = None) -> Iterator[tuple[str, str]]:
+        dirs = list(filter(
+            lambda x: (
+                os.path.isdir(os.path.join(path, x))
+                and name_regexp.search(x) if name_regexp else True
+            ),
+            os.listdir(path)
+        ))
         dirs.sort()
         return zip(dirs, map(lambda x: os.path.join(path, x), dirs))
 
-    for chapter, cpath in only_dirs(DOCS_PATH):
+    for chapter, cpath in only_dirs(DOCS_PATH, CHAPTER_REGEXP):
         clear_data(chapter_data)
         with open(os.path.join(cpath, DOC_FN), "r") as file:
             for line in file:
@@ -137,12 +155,12 @@ def main():
                     chapter_data["title"] = parse_md_heading(line)
                     break
 
-        for section, spath in only_dirs(cpath):
+        for section, spath in only_dirs(cpath, SECTION_REGEXP):
             clear_data(section_data)
             chapter_data["sections"].append({})
             chapter_data["sections"][len(chapter_data["sections"]) - 1]["relative_link"] = ch_relative_path(spath)
 
-            for exercise, epath in only_dirs(spath):
+            for exercise, epath in only_dirs(spath, EX_REGEXP):
                 if not DOC_FN in os.listdir(epath):
                     continue
 

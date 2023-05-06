@@ -1,4 +1,4 @@
-# 1.4.2 The `for` statement
+# Section 1.4.2 _The_ `for` _statement_
 
 ## Exercise 1.12
 
@@ -12,11 +12,12 @@
 
 Above the `for` loop sums numbers from -100 to 100, the final value of sum is 0.
 
+
 ## Exercise 1.13
 
 > Rewrite the first two exercises from $\S$ 1.4.1 (p. 13) using `for` loops.
 
-`main1.9.cpp` ([exercise1.9](../section1.4.1/exercise1.9/))
+`main1.9.cpp` ([exercise1.9](../../section1.4.1/exercise1.9/))
 ```cpp
 #include <iostream>
 
@@ -34,7 +35,7 @@ int main() {
 }
 ```
 
-`main1.10.cpp` ([exercise1.10](../section1.4.1/exercise1.10/))
+`main1.10.cpp` ([exercise1.10](../../section1.4.1/exercise1.10/))
 ```cpp
 #include <iostream>
 
@@ -52,6 +53,7 @@ int main() {
 }
 ```
 
+
 ## Exercise 1.14
 
 > Compare and contrast the loops that used a `for` with those using a `while`. Are there advantages or disadvantages to using either form?
@@ -68,6 +70,7 @@ for (; condition;) {
 
 ### `while`
 The best case of use is, when you'd like to do something without the need for a auxiliary variable, e.g. call a function until the condition flag is `true`.
+
 
 ## Exercise 1.15
 

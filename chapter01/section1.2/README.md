@@ -1,4 +1,4 @@
-# 1.2 A first look at input/output
+# Section 1.2 _A first look at input/output_
 
 ## Exercise 1.3
 
@@ -14,6 +14,7 @@ int main() {
     return 0;
 }
 ```
+
 
 ## Exercise 1.4
 
@@ -34,6 +35,7 @@ int main() {
     return 0;
 }
 ```
+
 
 ## Exercise 1.5
 
@@ -60,6 +62,7 @@ int main() {
     return 0;
 }
 ```
+
 
 ## Exercise 1.6
 

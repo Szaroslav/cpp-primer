@@ -1,4 +1,4 @@
-# 1.4.1 The `while` statement
+# Section 1.4.1 _The_ `while` _statement_
 
 ## Exercise 1.9
 
@@ -23,6 +23,7 @@ int main() {
 }
 ```
 
+
 ## Exercise 1.10
 
 > In addition to the `++ `operator that adds $1$ to its operand, there is a decrement operator (`--`) that subtracts $1$. Use the decrement operator to write a `while` that prints the numbers from ten down to zero.
@@ -45,6 +46,7 @@ int main() {
     return 0;
 }
 ```
+
 
 ## Exercise 1.11
 
