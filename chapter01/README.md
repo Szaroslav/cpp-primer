@@ -10,6 +10,7 @@
 | Section 1.4.1 | [_The_ `while` _statement_](./section1.4.1)             |
 | Section 1.4.2 | [_The_ `for` _statement_](./section1.4.2)               |
 | Section 1.4.3 | [_Reading an unknown number of inputs_](./section1.4.3) |
+| Section 1.4.4 | [_The_ `if` _statement_](./section1.4.4)                |
 
 
 ## Section 1.1.1 _Compiling and executing our program_
@@ -39,3 +40,8 @@
 
 ## Section 1.4.3 _Reading an unknown number of inputs_
 - [Exercise 1.16](./section1.4.3/exercise1.16)
+
+## Section 1.4.4 _The_ `if` _statement_
+- [Exercise 1.17](./section1.4.4/exercise1.17)
+- [Exercise 1.18](./section1.4.4/exercise1.18)
+- [Exercise 1.19](./section1.4.4/exercise1.19)

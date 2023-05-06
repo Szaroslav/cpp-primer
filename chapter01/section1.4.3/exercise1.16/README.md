@@ -4,6 +4,7 @@
 
 > Write your own version of a program that prints the sum of a set of integers read from `cin`.
 
+`main.cpp`
 ```cpp
 #include <iostream>
 
