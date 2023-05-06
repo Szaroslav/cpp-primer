@@ -1,4 +1,4 @@
-# 1.4.2 The `for` statement
+# Section 1.4.2 _The_ `for` _statement_
 
 ## Exercise 1.15
 

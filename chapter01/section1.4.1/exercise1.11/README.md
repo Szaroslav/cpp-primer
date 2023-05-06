@@ -1,4 +1,4 @@
-# 1.4.1 The `while` statement
+# Section 1.4.1 _The_ `while` _statement_
 
 ## Exercise 1.11
 

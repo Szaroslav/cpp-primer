@@ -1,4 +1,4 @@
-# 1.3 A word about comments
+# Section 1.3 _A word about comments_
 
 ## Exercise 1.7
 
