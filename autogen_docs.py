@@ -9,7 +9,6 @@ from typing import Any, Iterator
 #
 DOCS_PATH: str                  = "."
 DOC_FN: str                     = "README.md"
-OUTPUT_FN: str                  = "output.md"
 EX_PATTERN: str                 = r"[Ee]xercise\s?[0-9]+\.[0-9]+"
 EX_REGEXP: re.Pattern           = re.compile(EX_PATTERN)
 EX_README_PATTERN: str          = fr"{EX_PATTERN}\/README\.md$"

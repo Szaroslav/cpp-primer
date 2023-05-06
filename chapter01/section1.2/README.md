@@ -1,6 +1,6 @@
 # Section 1.2 _A first look at input/output_
 
-## Exercise 1.3
+## Exercise 1.03
 
 > Write a program to print `Hello, World` on the standard output.
 
@@ -16,7 +16,8 @@ int main() {
 ```
 
 
-## Exercise 1.4
+
+## Exercise 1.04
 
 > Our program used the addition operator, `+`, to add two numbers. Write a program that uses the multiplication operator, `*`, to print the product instead.
 
@@ -37,7 +38,8 @@ int main() {
 ```
 
 
-## Exercise 1.5
+
+## Exercise 1.05
 
 > We wrote the output in one large statement. Rewrite the program to use a separate statement to print each operand.
 
@@ -64,7 +66,8 @@ int main() {
 ```
 
 
-## Exercise 1.6
+
+## Exercise 1.06
 
 > Explain whether the following program fragment is legal.
 > ```cpp
@@ -75,3 +78,4 @@ int main() {
 > If the program is legal, what does it do? If the program is not legal, why not? How would you fix it?
 
 Above fragment of code it's not legal, the program won't compile. This behaviour is caused by 2 last statements, which don't have `std::cout` as the left operand. In this directory is `main.cpp`, which can be open in IDE or text editor, or be compiled to see errors.
+

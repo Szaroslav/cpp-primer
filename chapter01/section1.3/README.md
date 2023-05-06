@@ -1,6 +1,6 @@
 # Section 1.3 _A word about comments_
 
-## Exercise 1.7
+## Exercise 1.07
 
 > Compile a program that has incorrectly nested comments.
 
@@ -16,7 +16,8 @@ int main() {
 ```
 
 
-## Exercise 1.8
+
+## Exercise 1.08
 
 > Indicate which, if any, of the following output statements are legal:
 > ```
@@ -33,3 +34,4 @@ std::cout << "*/";                  // correct
 std::cout << /* "*/" */;            // incorrect
 std::cout << /* "*/" /* "/*" */;    // correct
 ```
+
