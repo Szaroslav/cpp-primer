@@ -1,6 +1,6 @@
 # Section 1.2 _A first look at input/output_
 
-## Exercise 1.4
+## Exercise 1.04
 
 > Our program used the addition operator, `+`, to add two numbers. Write a program that uses the multiplication operator, `*`, to print the product instead.
 

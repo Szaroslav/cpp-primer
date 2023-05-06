@@ -1,6 +1,6 @@
 # Section 1.2 _A first look at input/output_
 
-## Exercise 1.6
+## Exercise 1.06
 
 > Explain whether the following program fragment is legal.
 > ```cpp

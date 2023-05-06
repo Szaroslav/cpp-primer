@@ -8,9 +8,7 @@ from typing import Any, Iterator
 # Script constants
 #
 DOCS_PATH: str                  = "."
-DOCS_PATTERN: str               = DOCS_PATH.replace('/', r"\/")
-DOCS_REGEXP: re.Pattern         = re.compile(DOCS_PATTERN)
-DOC_FN: str                     ="README.md"
+DOC_FN: str                     = "README.md"
 OUTPUT_FN: str                  = "output.md"
 EX_PATTERN: str                 = r"[Ee]xercise\s?[0-9]+\.[0-9]+"
 EX_REGEXP: re.Pattern           = re.compile(EX_PATTERN)
@@ -22,11 +20,11 @@ CHAPTER_PATTERN: str            = r"[Cc]hapter\s?[0-9]+"
 CHAPTER_REGEXP: re.Pattern      = re.compile(CHAPTER_PATTERN)
 
 
-def ch_relative_path(path: str) -> str:
+def ch_relative_path(path: str, root_path: str) -> str:
     """
     Create the chapter relative path
     """
-    return re.sub(fr"{DOCS_PATH}{CHAPTER_PATTERN}\/", "./", path)
+    return re.sub(fr"{os.path.join(root_path, '')}{CHAPTER_PATTERN}\/", "./", path)
 
 
 def parse_md_heading(text: str) -> str:
@@ -147,7 +145,7 @@ def main():
         dirs.sort()
         return zip(dirs, map(lambda x: os.path.join(path, x), dirs))
 
-    for chapter, cpath in only_dirs(DOCS_PATH, CHAPTER_REGEXP):
+    for chapter, cpath in only_dirs(root_path, CHAPTER_REGEXP):
         clear_data(chapter_data)
         with open(os.path.join(cpath, DOC_FN), "r") as file:
             for line in file:
@@ -158,7 +156,7 @@ def main():
         for section, spath in only_dirs(cpath, SECTION_REGEXP):
             clear_data(section_data)
             chapter_data["sections"].append({})
-            chapter_data["sections"][len(chapter_data["sections"]) - 1]["relative_link"] = ch_relative_path(spath)
+            chapter_data["sections"][len(chapter_data["sections"]) - 1]["relative_link"] = ch_relative_path(spath, root_path)
 
             for exercise, epath in only_dirs(spath, EX_REGEXP):
                 if not DOC_FN in os.listdir(epath):
@@ -177,7 +175,7 @@ def main():
                     recent_chapter_data["exercises"] = []
                 recent_chapter_data["exercises"].append({
                     "title": title,
-                    "relative_link": ch_relative_path(epath)
+                    "relative_link": ch_relative_path(epath, root_path)
                 })
 
             generate_section(os.path.join(spath, DOC_FN), section_data)

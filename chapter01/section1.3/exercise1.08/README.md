@@ -1,6 +1,6 @@
 # Section 1.3 _A word about comments_
 
-## Exercise 1.8
+## Exercise 1.08
 
 > Indicate which, if any, of the following output statements are legal:
 > ```

@@ -1,6 +1,6 @@
 # Section 1.3 _A word about comments_
 
-## Exercise 1.7
+## Exercise 1.07
 
 > Compile a program that has incorrectly nested comments.
 
