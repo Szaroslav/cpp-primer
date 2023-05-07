@@ -12,6 +12,7 @@
 | Section 1.4.3 | [_Reading an unknown number of inputs_](./section1.4.3) |
 | Section 1.4.4 | [_The_ `if` _statement_](./section1.4.4)                |
 | Section 1.5.1 | [_The_ `Sales_item` _class_](./section1.5.1)            |
+| Section 1.5.2 | [_A first look at member functions_](./section1.5.2)    |
 
 
 ## Section 1.1.1 _Compiling and executing our program_
@@ -51,3 +52,7 @@
 - [Exercise 1.20](./section1.5.1/exercise1.20)
 - [Exercise 1.21](./section1.5.1/exercise1.21)
 - [Exercise 1.22](./section1.5.1/exercise1.22)
+
+## Section 1.5.2 _A first look at member functions_
+- [Exercise 1.23](./section1.5.2/exercise1.23)
+- [Exercise 1.24](./section1.5.2/exercise1.24)
