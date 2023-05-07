@@ -13,6 +13,7 @@
 | Section 1.4.4 | [_The_ `if` _statement_](./section1.4.4)                |
 | Section 1.5.1 | [_The_ `Sales_item` _class_](./section1.5.1)            |
 | Section 1.5.2 | [_A first look at member functions_](./section1.5.2)    |
+| Section 1.6   | [_The bookstore program_](./section1.6)                 |
 
 
 ## Section 1.1.1 _Compiling and executing our program_
@@ -56,3 +57,6 @@
 ## Section 1.5.2 _A first look at member functions_
 - [Exercise 1.23](./section1.5.2/exercise1.23)
 - [Exercise 1.24](./section1.5.2/exercise1.24)
+
+## Section 1.6 _The bookstore program_
+- [Exercise 1.25](./section1.6/exercise1.25)
