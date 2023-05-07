@@ -4,13 +4,53 @@
 
 > Write a program that reads several transactions and counts how many transactions occur for each `ISBN`.
 
+### Right solution
+
+`main.cpp`
+```cpp
+#include "../../Sales_item.h"
+#include <iostream>
+
+int main()
+{
+    std::cout << "Enter an ordered set of books:" << std::endl;
+
+    Sales_item item, current_item;
+    int count = 1;
+    if (std::cin >> current_item) {
+        while (std::cin >> item) {
+            if (item.isbn() == current_item.isbn()) {
+                count++;
+            }
+            else {
+                std::cout << "The number of transactions of "
+                          << current_item.isbn() << ": "
+                          << count << std::endl;
+                current_item = item;
+                count = 1;
+            }
+        }
+    }
+
+    // Flush the last set of transactions
+    std::cout << "The number of transactions of "
+              << current_item.isbn() << ": "
+              << count << std::endl;
+
+    return 0;
+}
+```
+
+
+### _First, definitely more ambitious and beyond knowledge of average reader_
+
 Anything else didn't come to my mind, when I was thinking about solution than using `std::map` from the standard library. Feel free to skip this solution, because `map`s hasn't been introduced yet.  
 The program uses `C++17` and `C++20` features, compile it using `-std=c++20` flag for `GCC` compiler.
 ```bash
-g++ main.c -o main -std=c++20
+g++ main_map.c -o main_map -std=c++20
 ```
 
-`main.cpp`
+`main_map.cpp`
 ```cpp
 #include "../../Sales_item.h"
 #include <iostream>
