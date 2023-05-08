@@ -14,10 +14,7 @@
 <ol type="a">
     <li>
         Illegal, cannot initilize variable using streams. Fixed code:<br>
-        <code>
-            int input_value;
-            std::cin >> input_value;
-        </code>
+        <code>int input_value; std::cin >> input_value;</code>
     </li>
     <li>
         Illegal, cannot initialize using <code>{ }</code>, due to the loss of information. Fixed code (<i>subsection d</i>):<br>
