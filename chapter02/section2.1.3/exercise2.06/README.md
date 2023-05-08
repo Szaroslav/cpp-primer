@@ -1,6 +1,6 @@
 # Section 2.1.3 _Literals_
 
-## Exercise 2.6
+## Exercise 2.06
 
 > What, if any, are the differences between the following definitions:
 > ```cpp

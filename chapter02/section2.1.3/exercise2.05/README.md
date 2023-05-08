@@ -1,6 +1,6 @@
 # Section 2.1.3 _Literals_
 
-## Exercise 2.5
+## Exercise 2.05
 
 > Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:
 >

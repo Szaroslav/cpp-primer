@@ -1,6 +1,6 @@
 # Section 2.1.2 _Type conversions_
 
-## Exercise 2.3
+## Exercise 2.03
 
 > What output will the following code produce?
 > ```cpp

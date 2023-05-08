@@ -1,6 +1,6 @@
 # Section 2.1.3 _Literals_
 
-## Exercise 2.5
+## Exercise 2.05
 
 > Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:
 >
@@ -51,7 +51,7 @@
 
 
 
-## Exercise 2.6
+## Exercise 2.06
 
 > What, if any, are the differences between the following definitions:
 > ```cpp
@@ -75,7 +75,7 @@ $$
 
 
 
-## Exercise 2.7
+## Exercise 2.07
 
 > What values do these literals represent? What type does each have?
 >
@@ -112,7 +112,7 @@ $$
 
 
 
-## Exercise 2.8
+## Exercise 2.08
 
 > Using escape sequences, write a program to print `2M` followed by a newline. Modify the program to print `2`, then a tab, then an `M`, followed by a newline.
 

@@ -1,6 +1,6 @@
 # Section 2.1.3 _Literals_
 
-## Exercise 2.7
+## Exercise 2.07
 
 > What values do these literals represent? What type does each have?
 >

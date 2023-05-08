@@ -2,23 +2,28 @@
 
 ## Sections
 
-| Section       | Title                                |
-| ------------- | ------------------------------------ |
-| Section 2.1.1 | [_Arithmetic types_](./section2.1.1) |
-| Section 2.1.2 | [_Type conversions_](./section2.1.2) |
-| Section 2.1.3 | [_Literals_](./section2.1.3)         |
+| Section       | Title                                    |
+| ------------- | ---------------------------------------- |
+| Section 2.1.1 | [_Arithmetic types_](./section2.1.1)     |
+| Section 2.1.2 | [_Type conversions_](./section2.1.2)     |
+| Section 2.1.3 | [_Literals_](./section2.1.3)             |
+| Section 2.2.1 | [_Variable definitions_](./section2.2.1) |
 
 
 ## Section 2.1.1 _Arithmetic types_
-- [Exercise 2.1](./section2.1.1/exercise2.1)
-- [Exercise 2.2](./section2.1.1/exercise2.2)
+- [Exercise 2.01](./section2.1.1/exercise2.01)
+- [Exercise 2.02](./section2.1.1/exercise2.02)
 
 ## Section 2.1.2 _Type conversions_
-- [Exercise 2.3](./section2.1.2/exercise2.3)
-- [Exercise 2.4](./section2.1.2/exercise2.4)
+- [Exercise 2.03](./section2.1.2/exercise2.03)
+- [Exercise 2.04](./section2.1.2/exercise2.04)
 
 ## Section 2.1.3 _Literals_
-- [Exercise 2.5](./section2.1.3/exercise2.5)
-- [Exercise 2.6](./section2.1.3/exercise2.6)
-- [Exercise 2.7](./section2.1.3/exercise2.7)
-- [Exercise 2.8](./section2.1.3/exercise2.8)
+- [Exercise 2.05](./section2.1.3/exercise2.05)
+- [Exercise 2.06](./section2.1.3/exercise2.06)
+- [Exercise 2.07](./section2.1.3/exercise2.07)
+- [Exercise 2.08](./section2.1.3/exercise2.08)
+
+## Section 2.2.1 _Variable definitions_
+- [Exercise 2.09](./section2.2.1/exercise2.09)
+- [Exercise 2.10](./section2.2.1/exercise2.10)

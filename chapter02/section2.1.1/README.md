@@ -1,6 +1,6 @@
 # Section 2.1.1 _Arithmetic types_
 
-## Exercise 2.1
+## Exercise 2.01
 
 > What are the differences between `int`, `long`, `long long`, and `short`? Between an `unsigned` and a `signed` type? Between a `float` and a `double`?
 
@@ -15,7 +15,7 @@ The `float` is a single-precision floating-point type, the `double` is (_as the 
 
 
 
-## Exercise 2.2
+## Exercise 2.02
 
 > To calculate a mortgage payment, what types would you use for the rate, principal, and payment? Explain why you selected each type.
 

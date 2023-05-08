@@ -1,6 +1,6 @@
 # Section 2.1.2 _Type conversions_
 
-## Exercise 2.3
+## Exercise 2.03
 
 > What output will the following code produce?
 > ```cpp
@@ -31,7 +31,7 @@ std::cout << u - i << std::endl;    // 0
 
 
 
-## Exercise 2.4
+## Exercise 2.04
 
 > Write a program to check whether your predictions were correct. If not, study this section until you understand what the problem is.
 

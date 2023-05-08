@@ -1,6 +1,6 @@
 # Section 2.1.2 _Type conversions_
 
-## Exercise 2.4
+## Exercise 2.04
 
 > Write a program to check whether your predictions were correct. If not, study this section until you understand what the problem is.
 
