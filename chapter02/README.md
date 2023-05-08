@@ -9,6 +9,7 @@
 | Section 2.1.3 | [_Literals_](./section2.1.3)                              |
 | Section 2.2.1 | [_Variable definitions_](./section2.2.1)                  |
 | Section 2.2.2 | [_Variable declarations and definitions_](./section2.2.2) |
+| Section 2.2.3 | [_Identifiers_](./section2.2.3)                           |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -31,3 +32,6 @@
 
 ## Section 2.2.2 _Variable declarations and definitions_
 - [Exercise 2.11](./section2.2.2/exercise2.11)
+
+## Section 2.2.3 _Identifiers_
+- [Exercise 2.12](./section2.2.3/exercise2.12)
