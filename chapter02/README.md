@@ -2,12 +2,13 @@
 
 ## Sections
 
-| Section       | Title                                    |
-| ------------- | ---------------------------------------- |
-| Section 2.1.1 | [_Arithmetic types_](./section2.1.1)     |
-| Section 2.1.2 | [_Type conversions_](./section2.1.2)     |
-| Section 2.1.3 | [_Literals_](./section2.1.3)             |
-| Section 2.2.1 | [_Variable definitions_](./section2.2.1) |
+| Section       | Title                                                     |
+| ------------- | --------------------------------------------------------- |
+| Section 2.1.1 | [_Arithmetic types_](./section2.1.1)                      |
+| Section 2.1.2 | [_Type conversions_](./section2.1.2)                      |
+| Section 2.1.3 | [_Literals_](./section2.1.3)                              |
+| Section 2.2.1 | [_Variable definitions_](./section2.2.1)                  |
+| Section 2.2.2 | [_Variable declarations and definitions_](./section2.2.2) |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -27,3 +28,6 @@
 ## Section 2.2.1 _Variable definitions_
 - [Exercise 2.09](./section2.2.1/exercise2.09)
 - [Exercise 2.10](./section2.2.1/exercise2.10)
+
+## Section 2.2.2 _Variable declarations and definitions_
+- [Exercise 2.11](./section2.2.2/exercise2.11)
