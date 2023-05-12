@@ -12,6 +12,7 @@
 | Section 2.2.3 | [_Identifiers_](./section2.2.3)                           |
 | Section 2.2.4 | [_Scope of a name_](./section2.2.4)                       |
 | Section 2.3.1 | [_References_](./section2.3.1)                            |
+| Section 2.3.2 | [_Pointers_](./section2.3.2)                              |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -46,3 +47,8 @@
 - [Exercise 2.15](./section2.3.1/exercise2.15)
 - [Exercise 2.16](./section2.3.1/exercise2.16)
 - [Exercise 2.17](./section2.3.1/exercise2.17)
+
+## Section 2.3.2 _Pointers_
+- [Exercise 2.18](./section2.3.2/exercise2.18)
+- [Exercise 2.19](./section2.3.2/exercise2.19)
+- [Exercise 2.20](./section2.3.2/exercise2.20)

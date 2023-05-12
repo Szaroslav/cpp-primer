@@ -21,7 +21,6 @@
 > int &rval3;
 > ```
 
-
 (a) Valid, integer definition.  
 (b) Invalid, reference to a literal.  
 (c) Valid, reference to another integer variable.  
