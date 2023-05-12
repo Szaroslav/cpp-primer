@@ -69,6 +69,20 @@ Calculating square of the `i` ($42$).
 
 ## Exercise 2.21
 
+> Assuming `p` is a pointer to `int`, explain the following code:
+>
+> ```cpp
+> if (p) // ...
+> if (*p) // ...
+> ```
+
+The first line checks, whether the pointer value of pointing object is different from `0`.
+The second line...
+
+
+
+## Exercise 2.21
+
 > Explain each of the following definitions. Indicate whether any are illegal and, if so, why.
 >
 > ```cpp
