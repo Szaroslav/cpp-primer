@@ -1,25 +1,13 @@
 # Section 2.3.2 _Pointers_
 
-## Exercise 2.21
+## Exercise 2.22
 
-> Explain each of the following definitions. Indicate whether any are illegal and, if so, why.
+> Assuming `p` is a pointer to `int`, explain the following code:
 >
 > ```cpp
-> int i = 0;
-> ```
-> (a)
-> ```cpp
-> double* dp = &i;
-> ```
-> (b)
-> ```cpp
-> int *ip = i;
-> ```
-> (c)
-> ```cpp
-> int *p = &i;
+> if (p) // ...
+> if (*p) // ...
 > ```
 
-(a) Valid, initializating `dp` pointer with address different from `double` type.  
-(b) Invalid, initializing `ip` pointer with value of `i`.  
-(c) Valid, initializating `p` pointer with address of `i`.
+The first line checks, whether the pointer is initialized or/and different from `0` (`nullptr`, `NULL`).  
+The second line checks, whether the pointer value of pointing object is different from `0`.

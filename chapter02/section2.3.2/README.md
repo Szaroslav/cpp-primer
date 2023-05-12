@@ -69,20 +69,6 @@ Calculating square of the `i` ($42$).
 
 ## Exercise 2.21
 
-> Assuming `p` is a pointer to `int`, explain the following code:
->
-> ```cpp
-> if (p) // ...
-> if (*p) // ...
-> ```
-
-The first line checks, whether the pointer value of pointing object is different from `0`.
-The second line...
-
-
-
-## Exercise 2.21
-
 > Explain each of the following definitions. Indicate whether any are illegal and, if so, why.
 >
 > ```cpp
@@ -104,4 +90,18 @@ The second line...
 (a) Valid, initializating `dp` pointer with address different from `double` type.  
 (b) Invalid, initializing `ip` pointer with value of `i`.  
 (c) Valid, initializating `p` pointer with address of `i`.
+
+
+
+## Exercise 2.22
+
+> Assuming `p` is a pointer to `int`, explain the following code:
+>
+> ```cpp
+> if (p) // ...
+> if (*p) // ...
+> ```
+
+The first line checks, whether the pointer is initialized or/and different from `0` (`nullptr`, `NULL`).  
+The second line checks, whether the pointer value of pointing object is different from `0`.
 
