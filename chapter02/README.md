@@ -11,6 +11,7 @@
 | Section 2.2.2 | [_Variable declarations and definitions_](./section2.2.2) |
 | Section 2.2.3 | [_Identifiers_](./section2.2.3)                           |
 | Section 2.2.4 | [_Scope of a name_](./section2.2.4)                       |
+| Section 2.3.1 | [_References_](./section2.3.1)                            |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -40,3 +41,8 @@
 ## Section 2.2.4 _Scope of a name_
 - [Exercise 2.13](./section2.2.4/exercise2.13)
 - [Exercise 2.14](./section2.2.4/exercise2.14)
+
+## Section 2.3.1 _References_
+- [Exercise 2.15](./section2.3.1/exercise2.15)
+- [Exercise 2.16](./section2.3.1/exercise2.16)
+- [Exercise 2.17](./section2.3.1/exercise2.17)
