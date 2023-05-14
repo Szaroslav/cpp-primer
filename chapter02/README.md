@@ -54,3 +54,5 @@
 - [Exercise 2.20](./section2.3.2/exercise2.20)
 - [Exercise 2.21](./section2.3.2/exercise2.21)
 - [Exercise 2.22](./section2.3.2/exercise2.22)
+- [Exercise 2.23](./section2.3.2/exercise2.23)
+- [Exercise 2.24](./section2.3.2/exercise2.24)
