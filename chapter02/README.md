@@ -2,17 +2,18 @@
 
 ## Sections
 
-| Section       | Title                                                     |
-| ------------- | --------------------------------------------------------- |
-| Section 2.1.1 | [_Arithmetic types_](./section2.1.1)                      |
-| Section 2.1.2 | [_Type conversions_](./section2.1.2)                      |
-| Section 2.1.3 | [_Literals_](./section2.1.3)                              |
-| Section 2.2.1 | [_Variable definitions_](./section2.2.1)                  |
-| Section 2.2.2 | [_Variable declarations and definitions_](./section2.2.2) |
-| Section 2.2.3 | [_Identifiers_](./section2.2.3)                           |
-| Section 2.2.4 | [_Scope of a name_](./section2.2.4)                       |
-| Section 2.3.1 | [_References_](./section2.3.1)                            |
-| Section 2.3.2 | [_Pointers_](./section2.3.2)                              |
+| Section       | Title                                                        |
+| ------------- | ------------------------------------------------------------ |
+| Section 2.1.1 | [_Arithmetic types_](./section2.1.1)                         |
+| Section 2.1.2 | [_Type conversions_](./section2.1.2)                         |
+| Section 2.1.3 | [_Literals_](./section2.1.3)                                 |
+| Section 2.2.1 | [_Variable definitions_](./section2.2.1)                     |
+| Section 2.2.2 | [_Variable declarations and definitions_](./section2.2.2)    |
+| Section 2.2.3 | [_Identifiers_](./section2.2.3)                              |
+| Section 2.2.4 | [_Scope of a name_](./section2.2.4)                          |
+| Section 2.3.1 | [_References_](./section2.3.1)                               |
+| Section 2.3.2 | [_Pointers_](./section2.3.2)                                 |
+| Section 2.3.2 | [_Understanding compound type declarations_](./section2.3.3) |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -56,3 +57,6 @@
 - [Exercise 2.22](./section2.3.2/exercise2.22)
 - [Exercise 2.23](./section2.3.2/exercise2.23)
 - [Exercise 2.24](./section2.3.2/exercise2.24)
+
+## Section 2.3.2 _Understanding compound type declarations_
+- [Exercise 2.25](./section2.3.3/exercise2.25)
