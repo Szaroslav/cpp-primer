@@ -38,5 +38,5 @@
 (c) Illegal, same as (a).  
 (d) Legal, same as (b), it points to `const int` instead.  
 (e) Legal, pointer to `const int`.  
-(f) Illegal, `const` pointer, must be initilized.  
+(f) Illegal, `const` reference is not allowed.  
 (g) Legal, it's valid to assign `nonconst` to `const` object, to reference either.

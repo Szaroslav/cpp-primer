@@ -68,3 +68,4 @@
 
 ## Section 2.4.2 _Pointers and_ `const`
 - [Exercise 2.27](./section2.4.2/exercise2.27)
+- [Exercise 2.28](./section2.4.2/exercise2.28)
