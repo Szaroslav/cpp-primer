@@ -49,23 +49,23 @@
 >
 > (a)
 > ```cpp
-> int i = -1, &r = 0;
+> int i, *const cp;
 > ```
 > (b)
 > ```cpp
-> int *const p2 = &i2;
+> int *p1, *const p2;
 > ```
 > (c)
 > ```cpp
-> const int i = -1, &r = 0;
+> const int ic, &r = ic;
 > ```
 > (d)
 > ```cpp
-> const int *const p3 = &i2;
+> const int *const p3;
 > ```
 > (e)
 > ```cpp
-> const int *p1 = &i2;
+> const int *p;
 > ```
 
 (a) Legal, `int` and `const` pointer to `int`.  
@@ -73,4 +73,43 @@
 (c) Illegal, `const int` (must be initilized), reference to `const int`.  
 (d) Illegal, `const` pointer to `const int` (must be initilized).  
 (e) Legal, pointer to `const int`.  
+
+
+
+## Exercise 2.29
+
+> Using the variables in the previous exercise, which of the following assignments are legal? Explain why.
+> (a)
+> ```cpp
+> i = ic;
+> ```
+> (b)
+> ```cpp
+> p1 = p3;
+> ```
+> (c)
+> ```cpp
+> p1 = &ic;
+> ```
+> (d)
+> ```cpp
+> p3 = &ic;
+> ```
+> (e)
+> ```cpp
+> p2 = p1;
+> ```
+> (f)
+> ```cpp
+> ic = *p3;
+> ```
+
+Assume that all variables was defined properly.
+
+(a) Legal, `const int` to `int` assignment.  
+(b) Illegal, cannot assign pointer to `const` to pointer to `nonconst`.  
+(c) Illegal, cannot assign `const` variable to pointer to `nonconst`.  
+(d) Illegal, cannot assign `const` pointer.  
+(e) Illegal, cannot assign `const` pointer.  
+(f) Illegal, cannot assign `const` variable.  
 

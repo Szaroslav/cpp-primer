@@ -6,23 +6,23 @@
 >
 > (a)
 > ```cpp
-> int i = -1, &r = 0;
+> int i, *const cp;
 > ```
 > (b)
 > ```cpp
-> int *const p2 = &i2;
+> int *p1, *const p2;
 > ```
 > (c)
 > ```cpp
-> const int i = -1, &r = 0;
+> const int ic, &r = ic;
 > ```
 > (d)
 > ```cpp
-> const int *const p3 = &i2;
+> const int *const p3;
 > ```
 > (e)
 > ```cpp
-> const int *p1 = &i2;
+> const int *p;
 > ```
 
 (a) Legal, `int` and `const` pointer to `int`.  
