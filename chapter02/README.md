@@ -15,6 +15,7 @@
 | Section 2.3.2 | [_Pointers_](./section2.3.2)                                 |
 | Section 2.3.2 | [_Understanding compound type declarations_](./section2.3.3) |
 | Section 2.4   | [`const` _qualifier_](./section2.4)                          |
+| Section 2.4.2 | [_Pointers and_ `const`](./section2.4.2)                     |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -64,3 +65,6 @@
 
 ## Section 2.4 `const` _qualifier_
 - [Exercise 2.26](./section2.4/exercise2.26)
+
+## Section 2.4.2 _Pointers and_ `const`
+- [Exercise 2.27](./section2.4.2/exercise2.27)
