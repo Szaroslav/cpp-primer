@@ -74,3 +74,4 @@
 
 ## Section 2.4.3 _Top-level_ `const`
 - [Exercise 2.30](./section2.4.3/exercise2.30)
+- [Exercise 2.31](./section2.4.3/exercise2.31)
