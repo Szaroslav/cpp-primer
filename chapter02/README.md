@@ -17,6 +17,8 @@
 | Section 2.4   | [`const` _qualifier_](./section2.4)                          |
 | Section 2.4.2 | [_Pointers and_ `const`](./section2.4.2)                     |
 | Section 2.4.3 | [_Top-level_ `const`](./section2.4.3)                        |
+| Section 2.4.4 | [`constexpr` _and constant expressions_](./section2.4.4)     |
+| Section 2.5.2 | [_The_ `auto` _type specifier_](./section2.5.2)              |
 
 
 ## Section 2.1.1 _Arithmetic types_
@@ -75,3 +77,11 @@
 ## Section 2.4.3 _Top-level_ `const`
 - [Exercise 2.30](./section2.4.3/exercise2.30)
 - [Exercise 2.31](./section2.4.3/exercise2.31)
+
+## Section 2.4.4 `constexpr` _and constant expressions_
+- [Exercise 2.32](./section2.4.4/exercise2.32)
+
+## Section 2.5.2 _The_ `auto` _type specifier_
+- [Exercise 2.33](./section2.5.2/exercise2.33)
+- [Exercise 2.34](./section2.5.2/exercise2.34)
+- [Exercise 2.35](./section2.5.2/exercise2.35)

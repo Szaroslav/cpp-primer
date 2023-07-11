@@ -12,3 +12,4 @@
 ```cpp
 int null = 0, *p = &null;
 ```
+
